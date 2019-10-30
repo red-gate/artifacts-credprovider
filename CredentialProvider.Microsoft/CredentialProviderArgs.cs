@@ -44,6 +44,7 @@ namespace NuGetCredentialProvider
 
         [ArgDescription("In standalone mode, format the results for human readability or as JSON. If JSON is selected, then logging (which may include Device Code instructions) will be logged to standard error instead of standard output.")]
         [ArgShortcut("F")]
+        [ArgDefaultValue("Json")]
         public OutputFormat OutputFormat { get; set; }
     }
 
